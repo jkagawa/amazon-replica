@@ -1,0 +1,163 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 90%;
+}
+
+.login-box {
+    border: 1px solid #CCC;
+    padding: 5px 5% 5px;
+    margin-top: 100px;
+    max-width: 100%;
+    border-radius: 3px;
+}
+
+.login-box h1 {
+    margin: 0;
+    font-weight: normal;
+    color: #212529;
+}
+
+.login-box label {
+    color: #636669;
+    font-size: 0.8rem;
+    margin: 10px 0 0;
+    display: inline-block;
+    font-weight: 600;
+}
+
+.text-box {
+    padding: 7px 2%;
+    margin: 10px 0;
+    font-size: 1rem;
+    width: 400px;
+    max-width: 96%;
+    border-radius: 3px;
+    border: 2px solid #B4B4B4;
+}
+
+.password-text-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.button-submit {
+    background-color: #F7C548;
+    border: 1px solid #B19349;
+    padding: 8px 5px;
+    font-size: 0.9rem;
+    width: 100%;
+    border-radius: 3px;
+    margin: 15px 0;
+    cursor: pointer;
+}
+
+.button-create-account {
+    background-color: #E7E9EC;
+    border: 1px solid #BFC2C8;
+    padding: 8px 5px;
+    font-size: 0.9rem;
+    width: 95%;
+    border-radius: 3px;
+    margin: 15px 0;
+    cursor: pointer;
+}
+
+.button-submit:hover, .button-create-account:hover {
+    filter: brightness(105%);
+}
+
+.linked-text {
+    font-size: 1rem;
+    color: #2B91FF;
+    text-decoration: none;
+}
+
+.linked-text:hover {
+    text-decoration: underline;
+}
+
+.login-box p {
+    display: flex;
+    align-items: center;
+}
+
+.login-box p span {
+    font-size: 0.4rem;
+    color: #2B91FF;
+    margin-right: 5px;
+}
+
+.content-text {
+    color: gray;
+    font-weight: 500;
+    font-size: 1rem;
+    margin: 0;
+    margin-top: -30px;
+    background-color: white;
+    padding: 0 10px;
+}
+
+.login-container hr {
+    height: 2px;
+    background-color: #CCC;
+    border: none;
+    width: 100%;
+    margin: 20px;
+}
+
+footer {
+    margin-top: 50px;
+    border-top: 2px solid #CCC;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: center;
+    padding: 0;
+    margin-top: 40px;
+}
+
+footer li a {
+    margin: 0 10px;
+}
+
+footer li a {
+    color: #2B91FF;
+    text-decoration: none;
+    font-size: 0.8rem;
+}
+
+footer li a:hover {
+    text-decoration: underline;
+}
+
+footer p {
+    color: #636669;
+    font-size: 0.8rem;
+}
